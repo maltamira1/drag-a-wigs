@@ -1,0 +1,133 @@
+	
+
+
+.firstpart {
+	margin-top: 2px;
+	padding: 30px;
+	
+	color: #51ff97;
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: center;
+	transition: opacity 4s;
+
+}
+
+.firstpart:hover {
+	opacity: 5%;
+	
+
+}
+
+body {
+	background: linear-gradient(#5f2cf2, #1703d6, #0e018e);
+	margin: 0;
+}
+
+
+.firstpage {
+	display: flex;
+	flex-wrap:wrap;
+	flex-grow: 4;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+
+}
+
+.nav-in-left a {
+	font-family: 'Red Hat Mono', monospace;
+	font-weight: 400;
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	margin-right: 20px;
+	transition: color .8s linear, background
+
+}
+.title {
+font-family: 'Red Hat Mono', monospace;
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	transition: color .8s linear, background
+	
+}
+
+.heads {
+	padding: 130px;
+	max-width: 250px;
+	
+	transition:transform 3.5s ease-in-out
+
+}
+
+.heads:hover {
+	color: #000;
+	
+
+}
+
+.heart {
+	padding-left:170px;
+	max-width: 350px;
+
+	transition: transform 4s linear
+}
+
+.heart:hover {
+	
+
+}
+
+.cheeto {
+	max-width: 600px;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	transition: transform 3s ease-in-out
+}
+
+.cheeto:hover {
+
+transform: skew(25deg, 25deg);
+}
+
+
+.salami {
+
+	max-width: 450px;
+	animation: rotation 5s infinite linear;
+
+}
+@keyframes rotation {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.bom {
+  max-width: 600px;
+  animation: bounce-5 2s alternate infinite ease;
+}
+
+@keyframes bounce-5 {
+  0%   {transform: scale(.9);}
+  100% {transform: scale(1);}
+}
+
+.rainbow {
+	max-width: 700px;
+
+}

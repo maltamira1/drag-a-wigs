@@ -1,0 +1,228 @@
+body {
+margin: 0
+	
+}
+
+ 
+
+.title {
+font-family: 'Noto Serif Display', serif;
+font font-weight: 800;
+font-style: italic ;
+font-size: 180px;
+line-height: 1.1em;
+}
+
+
+.subtitle {
+
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+font-size: 60px;
+margin: 0;
+margin-top: 0;  
+}
+
+
+.firstpart {
+	margin-top: 1px;
+	padding: 30px;
+	display: flex;
+	background-image: url('../images/battle.jpg');
+	justify-content: flex-start;
+	align-items: flex-start;
+	color: #51ff97;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 75vh;
+}
+
+.content {
+	color: #0043ff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	padding: 30px;
+	font-size: 40px;
+	line-height: 1.5em;
+    background: #50ff97bd
+}
+
+
+.footnote {
+	font-family: 'Oswald', sans-serif;
+	max-width: 1000px;
+	font-weight: 700;
+	padding: 0px;
+	font-size: 16px;
+	line-height: 1.5em
+}
+
+
+
+.information {
+	display: flex;
+	color: #ffff;
+	padding: 30px;
+	background: #0043ff
+	
+
+}
+
+.movietitle {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	
+
+}
+
+.leftscreening {
+
+	width: 35vw;
+	font-family: 'Noto Serif Display', serif;
+	font font-weight: 800;
+	font-style: italic ;
+	font-size: 70px;
+	margin-top: 100px;
+}
+
+.shows {
+	background: url('../images/flag.png');
+	background-repeat: no-repeat;
+	background size: content;
+	width: 65vw;
+	font-family: 'Oswald', sans-serif;
+	max-width: 1500px;
+	padding: 30px;
+	font-size: 20px;
+	line-height: .7em;
+}
+
+.synopsis {
+	color: #50ff97bd;
+	background: #0043ff;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 0;
+	padding: 30px
+}
+
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+
+}
+
+.nav-in-left a {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 200;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+	margin-right: 24px;
+	transition: color 1s linear, background
+
+}
+.nav-in-left a:hover {
+	font-family: 'Noto Serif Display', serif;
+	font font-weight: 900;
+	font-style: oblique;
+	font-size: 27px;
+
+	color: #ffd400
+	
+}
+
+.about_title {
+	font-family: 'Noto Serif Display', serif;
+	font font-weight: 800;
+	font-style: italic ;
+	font-size: 180px;
+	line-height: 1.1em;
+	padding: 30px;
+	color:#51ff97;
+}
+
+
+.images_group {
+	display: flex;
+}
+
+.stars {
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	transition: transform 3s linear
+	
+
+}
+
+
+.stars:hover {
+	transform: rotate(180deg) ;
+
+}
+
+.moon {
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	transition: transform 3s ease-in-out
+
+}
+
+.moon:hover {
+	transform: skew(25deg, 25deg);
+}
+
+.subscribe {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 20vh;
+	padding: 30px;
+	font-family: 'Noto Serif Display', serif;
+	font font-weight: 800;
+	font-weight: bolder;
+	font-style: italic ;
+	font-size: 240px;
+	opacity: 10%;
+	transition: opacity 1.5s;
+}
+
+.subscribe:hover {
+	opacity: 100%;
+}
+
+.textabout {
+	display: flex;
+	max-width: 2000px;
+}
+
+
+.aboutmovie {
+	font-family: 'Noto Serif Display', serif;
+	font font-weight: 800;
+	font-style: italic ;
+	font-size: 180px;
+	line-height: 1.1em;
+	color:#51ff97 ;
+	transition:transform 7s ease-in-out
+
+
+
+}
+
+.aboutmovie:hover {
+	color: #000;
+	transform: scale(3.0);
+}
+
